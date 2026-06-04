@@ -1,0 +1,13 @@
+# 数据集配置
+path: ./datasets  # 数据集根目录
+train: train/images  # 训练集图片路径
+val: valid/images    # 验证集图片路径
+test: test/images    # 测试集图片路径
+
+# 类别数量
+nc: 2
+
+# 类别名称
+names:
+  0: bicycle    # 自行车
+  1: ebike      # 电动车
